@@ -1717,8 +1717,13 @@ body {
   min-height: 220px;
   background: #000000;
   color: #ffffff;
-  vertical-align: middle;
   cursor: pointer;
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
 }
 #news .news-tile img {
   position: absolute;
@@ -1763,9 +1768,9 @@ body {
 }
 #news .news-tile .tile-text {
   position: absolute;
-  left: 0;
   top: 30%;
-  width: 100%;
+  width: 95%;
+  left: 2.5%;
 }
 #news .news-tile:after {
   padding-top: 75%;
