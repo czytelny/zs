@@ -1,0 +1,47 @@
+{
+    "bil-news": {
+        "options": {
+            "sorting": false,
+            "sortAscending": false,
+            "requiredFields": ["title", "date", "image", "content"]
+        },
+        "data": [
+            {
+                "title": "Wartburg w Playboyu",
+                "date": "Marzec 2015",
+                "image": "<image src='img/news/05_2015.jpg'>",
+                "content": "Wartburg pojawił się w kwietniowym numerze miesięcznika Playboy.Strona xxx"
+            },
+            {
+                "title": "Autostuff o wartburgu z 'IDY'",
+                "date": "Marzec 2015",
+                "image": "<image src='img/news/04_2015.jpg'>",
+                "content": "Na łamach internetowego magazynu Autostuff pojawił się interesujący artykuł na temat Wartburga grającego w Idzie. <a href='http://www.autostuff.pl/lifestuff/1602/ida-czyli-jada-wartburgiem'>link</a>"
+            },
+            {
+                "title": "Wiosenna przejażdżka P70",
+                "date": "Luty 2015",
+                "image": "<image src='img/news/03_2015.jpg'>",
+                "content": "Wiosna sprzyja różnego typu inicjacjom, tak więc uruchomiłem P70. Rezultat można podziwiać w postaci zdjęć w <a href='#/'>galerii</a>"
+            },
+            {
+                "title": "Oskar za rolę Wartburga w Idzie!",
+                "date": "Luty 2015",
+                "image": "<image src='img/news/03_2015.jpg'>",
+                "content": "Wartburg w Playboyu z kwietnia 2015 roku"
+            },
+            {
+                "title": "Wartburg na wystawie w Muzeum Kinematografii w Łodzi",
+                "date": "Luty 2015",
+                "image": "<image src='img/news/03_2015.jpg'>",
+                "content": "Wartburg w Playboyu z kwietnia 2015 roku"
+            },
+            {
+                "title": "Syrenka 104 na wystawie w Muzeum Techniki w Warszawie",
+                "date": "Luty 2015",
+                "image": "<image src='img/news/03_2015.jpg'>",
+                "content": "Wartburg w Playboyu z kwietnia 2015 roku"
+            }
+        ]
+    }
+}

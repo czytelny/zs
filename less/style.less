@@ -1,0 +1,147 @@
+// ==========================================================================
+// Base Stylesheet - http://getbase.org
+// Author: Matthew Hartman - http://www.matthewhartman.com.au/
+// Version: 2.3.4 - Last Updated: July 15, 2015
+// ==========================================================================
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_resets";
+@import "base/_global";
+@import "base/_lists";
+@import "base/_blockquotes";
+@import "base/_tables";
+@import "base/_code";
+@import "base/_forms";
+@import "base/_assets";
+@import "base/_grid";
+// @import "base/_grid-non-responsive";
+// @import "base/_grid-minimal";
+@import "_mobile-styles";
+// Helpers
+@import "base/_helpers";
+// Animations
+@import "base/_animations";
+
+// Printer Styles
+@media print {
+  @import "base/_print";
+}
+
+@import "_navigation";
+
+body {
+  overflow: auto;
+
+}
+
+//custom classes
+.sans-serif {
+  font-family: @base-second-font-family;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#welcome-theme {
+  font-size: 3.9em;
+  color: #ffffff;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 10px #303030;
+  padding: 1.5em 0 2em 0;
+}
+
+#news {
+  .news-header {
+    background: #ffffff;
+    font-size: 2.2em;
+    text-align: center;
+    line-height: 4em;
+    position: relative;
+  }
+
+  .news-tile {
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    min-width: 298px;
+    height: 300px;
+    background: #000000;
+    color: #ffffff;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-bottom: 75%;
+
+    img {
+      position: absolute;
+      display: inline-block;
+      left: 0;
+      top: 0;
+      z-index: 0;
+      width: 100%;
+      opacity: .4;
+      -webkit-transition: opacity 1.3s;
+      -moz-transition: opacity 1.3s;
+      -ms-transition: opacity 1.3s;
+      -o-transition: opacity 1.3s;
+      transition: opacity 1.3s;
+    }
+
+    .b-title {
+      font-size: 1.5em;
+      text-transform: uppercase;
+      font-weight: bold;
+      position: relative;
+      z-index: 1;
+      text-shadow: 3px 3px 10px #2f2f2f;
+
+    }
+    .b-date {
+      position: relative;
+      z-index: 1;
+      text-transform: lowercase;
+    }
+
+    .b-content {
+      display: none;
+      width: 100%;
+      height: 100%;
+      background: #000000;
+      opacity: .9;
+      color: #FFFFFF;
+      position: absolute;
+      z-index: 3;
+      left: 0;
+      padding: 20px;
+      text-indent: 1em;
+      border: 1px solid #2e2e2e;
+    }
+
+    .tile-text {
+      padding-top: 30%;
+    }
+
+  }
+
+  .news-tile:hover {
+    img {
+      opacity: .8;
+    }
+  }
+}
+
+// Tablet Styles
+@media only screen and (min-width: @tablet-breakpoint) {
+  @import "_tablet-styles";
+}
+
+// Desktop Styles
+@media only screen and (min-width: @desktop-breakpoint) {
+  @import "_desktop-styles";
+}
+
+// HD Styles
+@media only screen and (min-width: @hd-breakpoint) {
+  @import "_hd-styles";
+}

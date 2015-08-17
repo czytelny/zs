@@ -1,0 +1,10 @@
+{
+    "generalSettings": {
+        "contentFolder": "data"
+    },
+    "applicationSettings": {
+        "singleArticles": ["collection", "history"],
+        "multipleArticles": ["news"]
+    }
+
+}
