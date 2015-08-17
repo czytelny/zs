@@ -66,12 +66,11 @@ body {
     overflow: hidden;
     float: left;
     min-width: 298px;
-    height: 300px;
+    min-height: 220px;
     background: #000000;
     color: #ffffff;
     vertical-align: middle;
     cursor: pointer;
-    padding-bottom: 75%;
 
     img {
       position: absolute;
@@ -97,6 +96,7 @@ body {
       text-shadow: 3px 3px 10px #2f2f2f;
 
     }
+
     .b-date {
       position: relative;
       z-index: 1;
@@ -119,9 +119,18 @@ body {
     }
 
     .tile-text {
-      padding-top: 30%;
+      position: absolute;
+      left: 0;
+      top: 30%;
+      width: 100%;
     }
 
+  }
+
+  .news-tile:after {
+    padding-top: 75%;
+    display:block;
+    content: ' ';
   }
 
   .news-tile:hover {
