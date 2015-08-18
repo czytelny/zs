@@ -1797,11 +1797,10 @@ body {
   transform: scale(1.01);
 }
 footer {
-  background: #35332f;
+  background: #dedede;
   font-size: 0.6em;
   text-align: center;
   padding: 5em 0;
-  color: #FFFFFF;
 }
 @media only screen and (min-width: 740px) {
   #welcome-theme {
@@ -1899,7 +1898,7 @@ footer {
   }
   header nav ul.list-inline li {
     border-bottom: 2px solid transparent;
-    padding: 10px 0;
+    padding: 18px 0;
     -webkit-transition: border .2s;
     -moz-transition: border .2s;
     -ms-transition: border .2s;
