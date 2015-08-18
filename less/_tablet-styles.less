@@ -21,6 +21,8 @@
 }
 
 header {
+  position: absolute;
+
   .logo-desktop {
     font-size: 2em;
     line-height: 1em;
@@ -28,18 +30,17 @@ header {
     color: #FFFFFF;
   }
 
-  .phone{
+  .phone {
     font-size: .5em;
     color: #79A7B0;
     line-height: 1em;
   }
 
-
   nav {
     font-size: 1.8em;
     line-height: 1em;
 
-    ul.list-inline li{
+    ul.list-inline li {
       border-bottom: 2px solid transparent;
       padding: 10px 0;
       -webkit-transition: border .2s;
@@ -51,10 +52,10 @@ header {
 
     ul li a {
       padding: 5px 10px;
-      display:block;
+      display: block;
     }
 
-    ul li:hover{
+    ul li:hover {
       border-bottom: 2px solid @base-link-color;
     }
   }

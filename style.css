@@ -1733,11 +1733,13 @@ body {
   z-index: 0;
   width: 100%;
   opacity: .4;
-  -webkit-transition: opacity 1.3s;
-  -moz-transition: opacity 1.3s;
-  -ms-transition: opacity 1.3s;
-  -o-transition: opacity 1.3s;
-  transition: opacity 1.3s;
+  -webkit-transition: all 2.5s ease-out;
+  -moz-transition: all 2.5s ease-out;
+  -ms-transition: all 2.5s ease-out;
+  -o-transition: all 2.5s ease-out;
+  transition: all 2.5s ease-out;
+  -webkit-filter: contrast(0.5);
+  filter: contrast(0.5);
 }
 #news .news-tile .b-title {
   font-size: 1.5em;
@@ -1779,6 +1781,16 @@ body {
 }
 #news .news-tile:hover img {
   opacity: .8;
+  filter: none;
+  -webkit-transform: scale(1.01);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.01);
+  /* Firefox */
+  -ms-transform: scale(1.01);
+  /* IE 9 */
+  -o-transform: scale(1.01);
+  /* Opera */
+  transform: scale(1.01);
 }
 @media only screen and (min-width: 740px) {
   #welcome-theme {
@@ -1796,6 +1808,9 @@ body {
     position: absolute;
     z-index: -1;
     opacity: .9;
+  }
+  header {
+    position: absolute;
   }
   header .logo-desktop {
     font-size: 2em;
