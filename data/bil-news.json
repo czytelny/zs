@@ -33,13 +33,13 @@
             {
                 "title": "Wartburg na wystawie w Muzeum Kinematografii w Łodzi",
                 "date": "Luty 2015",
-                "image": "<image src='img/news/02_2015_muzeum.jpg'>",
+                "image": "<image data-src='img/news/02_2015_muzeum.jpg' src='#'>",
                 "content": "Wartburg na wystawie w Muzeum Kinematografii w Łodzi"
             },
             {
                 "title": "Syrenka 104 na wystawie w Muzeum Techniki w Warszawie",
                 "date": "Luty 2015",
-                "image": "<image src='img/news/03_2014_muzeum.jpg'>",
+                "image": "<image data-src='img/news/03_2014_muzeum.jpg' src='#'>",
                 "content": "Wartburg w Playboyu z kwietnia 2015 roku"
             }
         ]

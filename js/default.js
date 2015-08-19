@@ -1,5 +1,9 @@
 // Default JavaScript Functions and Initiations
 $(document).ready(function() {
+    // Default
+    BIL.nerve.on('bil-news', 'rendered', function() {
+        $('img').loadScroll(500);
+    });
 
     $('#mobile-menu-open').click(function() {
         $("#mobile-menu").toggle("slide", {direction: 'right'});
