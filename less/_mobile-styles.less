@@ -2,22 +2,22 @@
 // Mobile Custom Styles
 // ==========================================================================
 
+
 #welcome-theme {
   text-align: center;
   line-height: 1.5em;
-}
-
-#mobile-background {
-  background: url('img/background/mobile/1.jpg') no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100%;
-  height: 80vh;
-  position: absolute;
   z-index: -1;
   opacity: .9;
+}
+
+@media only screen and (max-width: @tablet-breakpoint) {
+  #welcome-theme {
+    background: url('img/background/mobile/1.jpg') no-repeat;
+  }
 }
 
 #mobile-menu-open {
