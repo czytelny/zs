@@ -1805,9 +1805,10 @@ footer {
   #welcome-theme {
     font-size: 7em;
     line-height: 1em;
-    background: url('img/background/1.jpg') no-repeat;
+    background: url('img/background/1a.jpg') no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+    height: 90vh;
   }
   header {
     position: absolute;
